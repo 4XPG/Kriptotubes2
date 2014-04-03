@@ -1,0 +1,8 @@
+D:\susdulu\Kriptotubes2\bin\Debug\Kriptotubes2.exe
+D:\susdulu\Kriptotubes2\bin\Debug\Kriptotubes2.pdb
+D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.Form1.resources
+D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.Properties.Resources.resources
+D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.csproj.GenerateResource.Cache
+D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.exe
+D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.pdb
+D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.csprojResolveAssemblyReference.cache
