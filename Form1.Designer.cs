@@ -37,9 +37,9 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -135,12 +135,14 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Ciphertext";
             // 
-            // textBox4
+            // button4
             // 
-            this.textBox4.Location = new System.Drawing.Point(7, 20);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(621, 20);
-            this.textBox4.TabIndex = 0;
+            this.button4.Location = new System.Drawing.Point(509, 69);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(119, 23);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Decrypt and Save As";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -150,15 +152,14 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "Encrypt and Save As";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // textBox4
             // 
-            this.button4.Location = new System.Drawing.Point(509, 69);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Decrypt and Save As";
-            this.button4.UseVisualStyleBackColor = true;
+            this.textBox4.Location = new System.Drawing.Point(7, 20);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(621, 20);
+            this.textBox4.TabIndex = 0;
             // 
             // Form1
             // 
