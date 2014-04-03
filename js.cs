@@ -62,6 +62,37 @@ namespace Kriptotubes2
 			//mengembalikan temp3 sebagai I0
 			return temp3;
 		}
+		
+		//========================================================================
+		//========================================================================		
+		
+		private String EBC(String key, String text){
+		//mode enkripsi EBC
+		//asumsi
+		//1. panjang key = 8
+		//2. panjang text merupakan kelipatan 8
+		
+			int a,b,c;
+			int size;
+			String temp = String.Empty;
+			String keyGen = String.Empty;
+			String result = String.Empty;
+			
+			a=0;	//count jumlah char
+			b=0;	//count jumlah penggunaan key
+			while(a<text.Length){
+				temp = text.substring(a,8);
+				
+				//generate fungsi key
+				keyGen = generatorKey(key,b);
+				
+				//harusnya ada fungsi XOR, tapi baru asumsi, fungsi masih salah
+				result += varXOR(temp,keyGen);
+				
+				a+=8;
+				b++;
+			}
+		}
 
     }
 }
