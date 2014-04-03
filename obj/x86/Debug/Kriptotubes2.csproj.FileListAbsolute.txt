@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-D:\IF8\kripto\tubes\02\Kriptotubes2\bin\Debug\Kriptotubes2.exe
-D:\IF8\kripto\tubes\02\Kriptotubes2\bin\Debug\Kriptotubes2.pdb
-D:\IF8\kripto\tubes\02\Kriptotubes2\obj\x86\Debug\Kriptotubes2.csprojResolveAssemblyReference.cache
-D:\IF8\kripto\tubes\02\Kriptotubes2\obj\x86\Debug\Kriptotubes2.Form1.resources
-D:\IF8\kripto\tubes\02\Kriptotubes2\obj\x86\Debug\Kriptotubes2.Properties.Resources.resources
-D:\IF8\kripto\tubes\02\Kriptotubes2\obj\x86\Debug\Kriptotubes2.csproj.GenerateResource.Cache
-D:\IF8\kripto\tubes\02\Kriptotubes2\obj\x86\Debug\Kriptotubes2.exe
-D:\IF8\kripto\tubes\02\Kriptotubes2\obj\x86\Debug\Kriptotubes2.pdb
-=======
 D:\susdulu\Kriptotubes2\bin\Debug\Kriptotubes2.exe
 D:\susdulu\Kriptotubes2\bin\Debug\Kriptotubes2.pdb
 D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.Form1.resources
@@ -15,5 +5,3 @@ D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.Properties.Resources.resource
 D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.csproj.GenerateResource.Cache
 D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.exe
 D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.pdb
-D:\susdulu\Kriptotubes2\obj\x86\Debug\Kriptotubes2.csprojResolveAssemblyReference.cache
->>>>>>> 688999ac2d47bc497664e5ffd53f27e72f813304

@@ -120,6 +120,28 @@ namespace Kriptotubes2
             return I;
         }
 
+        private String splitPText(String P)
+        {
+            while (P.Length % 8 != 0)
+                P += "0";
+            int part = P.Length / 8;
+            int step = P.Length;
+            String Z1 = String.Empty;
+            Z1 += P.Substring(0, 8);
+            return Z1;
+        }
+
+        private String splitKey(String K)
+        {
+            while (K.Length % 8 != 0)
+                K += "0";
+            int part = K.Length / 8;
+            int step = K.Length;
+            String Z1 = String.Empty;
+            Z1 += K.Substring(0, 8);
+            return Z1;
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             String a = textBox3.Text;
@@ -151,6 +173,7 @@ namespace Kriptotubes2
             String Z3 = Convert.ToString(C3, 2);
             textBox1.Text = Z3;
             textBox1.Text = checkBinaryLength(Z3);
+            textBox2.Text = splitPText(b);
         }
     }
 }
