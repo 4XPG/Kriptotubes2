@@ -84,6 +84,8 @@ namespace Kriptotubes2
 				temp = text.substring(a,8);
 				
 				//generate fungsi key
+				//key akan di-generate berdasarkan jumlah penggunaan kunci,
+				//key juga akan di-reversi jika telah melakukan 5 penggunaan
 				keyGen = generatorKey(key,b);
 				
 				//harusnya ada fungsi XOR, tapi baru asumsi, fungsi masih salah
@@ -92,6 +94,40 @@ namespace Kriptotubes2
 				a+=8;
 				b++;
 			}
+			
+			return result;
+		}
+		
+		
+		private String CBC(String key, String text){
+		//mode enkripsi CBC
+		//asumsi
+		//1. panjang key = 8
+		//2. panjang text merupakan kelipatan 8
+		
+			int a,b,c;
+			int size;
+			String temp = String.Empty;
+			String keyGen = "00000000";
+			String tempKey = String.Empty;
+			String result = String.Empty;
+			
+			a=0;	//count jumlah char
+			b=0;	//count jumlah penggunaan key
+			while(a<text.Length){
+				temp = text.substring(a,8);
+				
+				//melakukan XOR P dan C
+				tempKey = varXOR(temp,keyGen);
+				
+				//harusnya ada fungsi XOR, tapi baru asumsi, fungsi masih salah
+				result += varXOR(tempKey,keyGen);
+				
+				a+=8;
+				b++;
+			}
+			
+			return result;
 		}
 
     }
